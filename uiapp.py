@@ -216,8 +216,8 @@ if __name__ == "__main__":
     root = TkinterDnD.Tk()
     ui = TrackerUI(root, comm_queue)
     
-    video_path = "/home/zas/Tracking_by_reference/128195-740906972_tiny.mp4"
-    model_path = "/home/zas/Tracking_by_reference/models/visdronebest.pt"
+    video_path = r"128195-740906972_tiny.mp4"
+    model_path = r"C:\Users\Chirag S\Desktop\G-36_Internship\visdronebest.pt"
     
     video_app = VideoApp(
         model_path=model_path,
